@@ -155,9 +155,10 @@ Otherwise, try to build and install directly from source. See the [Linux](#linux
 section below.
 
 ``` bash
+# Only for Ubuntu 16.04
 cd shadowsocks-libev
 sudo apt-get install --no-install-recommends build-essential autoconf libtool libssl-dev \
-    gawk debhelper dh-systemd init-system-helpers pkg-config asciidoc xmlto
+    gawk debhelper dh-systemd init-system-helpers pkg-config asciidoc xmlto apg
 dpkg-buildpackage -b -us -uc -i
 cd ..
 sudo dpkg -i shadowsocks-libev*.deb
