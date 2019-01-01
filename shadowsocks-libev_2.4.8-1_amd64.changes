@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 20 Jul 2016 09:25:50 +0800
+Source: shadowsocks-libev
+Binary: shadowsocks-libev libshadowsocks-libev1 libshadowsocks-libev-dev
+Architecture: amd64
+Version: 2.4.8-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description:
+ libshadowsocks-libev-dev - lightweight and secure socks5 proxy (development files)
+ libshadowsocks-libev1 - lightweight and secure socks5 proxy (shared library)
+ shadowsocks-libev - lightweight and secure socks5 proxy
+Changes:
+ shadowsocks-libev (2.4.8-1) unstable; urgency=low
+ .
+   * Update manual pages with asciidoc.
+   * Fix issues of bind_address option.
+Checksums-Sha1:
+ b1b98ebd3fa3017f95002c9516a99c405e955375 6506 libshadowsocks-libev-dev_2.4.8-1_amd64.deb
+ b1a40c46b7b3d1fb1c819cc89bf7cc5a5054fd49 231646 libshadowsocks-libev1_2.4.8-1_amd64.deb
+ 5df6a0de70a1f7cbb080dcdfa4454ce44dba829a 216660 shadowsocks-libev_2.4.8-1_amd64.deb
+Checksums-Sha256:
+ d2bc2d2b49affdb3b749fe6da8147e6141b05dcc9b224fd949c9833888213cbb 6506 libshadowsocks-libev-dev_2.4.8-1_amd64.deb
+ 803f82d09e8f4f63e617543046b7b6ae6655bc1dc22c0c1eebfc0d3af1f90feb 231646 libshadowsocks-libev1_2.4.8-1_amd64.deb
+ 16ad8e6c8822d95ce98e194291b6174d11fd58a9c46d17e3b1f59c617b65a5e8 216660 shadowsocks-libev_2.4.8-1_amd64.deb
+Files:
+ 38f5d81bfe2518c66dbf661f68dbf870 6506 libdevel extra libshadowsocks-libev-dev_2.4.8-1_amd64.deb
+ 399c0c60dc276f5d202c36f02f1a7e14 231646 libs extra libshadowsocks-libev1_2.4.8-1_amd64.deb
+ 646b161ceb7ee5efbe985098c5b7a866 216660 net extra shadowsocks-libev_2.4.8-1_amd64.deb
