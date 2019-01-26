@@ -162,6 +162,7 @@ sudo apt-get install --no-install-recommends build-essential autoconf libtool li
 dpkg-buildpackage -b -us -uc -i
 cd ..
 sudo dpkg -i shadowsocks-libev*.deb
+ss-server -p 443 -s 0.0.0.0 -k xxx -m aes-256-cfb -u
 ```
 
 #### Configure and start the service
